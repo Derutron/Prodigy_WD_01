@@ -1,30 +1,3 @@
-// import Home from './Components/Home'
-// import Navbar from './Components/Navbar'
-// import Services from './Components/Services'
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
-// const App = () => {
-//   return (
-//     <Router>
-//     <Routes>
-
-//       <Navbar />
-     
-//       <Route path="/Home" element={<Home />} />
-//       <Route path="/Services" element={<Services/>} />
-//       </Routes>
-//     </Router>
-//   )
-// }
-
-// export default App
-
-
-
-
-
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
@@ -43,7 +16,6 @@ const App = () => {
         <Route path="/About" element={<About/>} />
         <Route path="/Testimonials" element={<Testimonials/>} />
         <Route path="/Contact" element={<Contact/>} />
-        {/* Add more routes as needed */}
       </Routes>
     </Router>
   );
