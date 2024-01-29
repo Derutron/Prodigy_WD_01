@@ -1,13 +1,9 @@
 import { Link } from 'react-router-dom';
 
-//import ScrollButton from './ScrollButton'; // Make sure to provide the correct path
-
-
-
 const Home = () => {
 
   const scrollToTop = () => {
-    // Add your scroll to top logic here
+ 
     window.scrollTo({
       top: [3],
       behavior: 'smooth',
@@ -52,7 +48,7 @@ const Home = () => {
         {/* service one */}
         <Link to="/Services#innovativeSolutions" onClick={scrollToTop}>
         <div className="w-[380px] h-[500px] rounded-[30px] bg-gray-100 shadow-md flex-shrink-0">
-        {/* <ScrollButton targetId="innovativeSolutions">Scroll to Innovative Solutions</ScrollButton> */}
+      
           <img
           className="w-[380px] h-[300px] rounded-t-[30px] bg-cover bg-no-repeat bg-center"
           src="src/resources/service-Innovative-Solutions.jpg"
